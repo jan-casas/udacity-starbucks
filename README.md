@@ -78,7 +78,7 @@ Here is the structure of the project workspace:
 - The original datasets, provided as three JSON files, are located in the 'data' folder.
 
 ## 7. Results <a name="results"></a>
-The project's introduction and main findings are detailed in a blog post, which can be accessed [here](https://medium.com/@casasvil/udacity-data-science-starbucks-capstone-challenge-0a246ef08a0d).
+The project's introduction and main findings are detailed in a blog post, which can be accessed [here](https://medium.com/@casasvil/udacity-data-science-starbucks-capstone-challenge-2551df6af8f3).
 
 ## 8. Acknowledgements <a name="acknowledgements"></a>
 This project serves as the capstone project for the Udacity Data Science Nanodegree. The dataset used is a simulated representation of customer behavior on the Starbucks rewards mobile app.
