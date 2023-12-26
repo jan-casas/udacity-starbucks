@@ -223,7 +223,7 @@ The comparison table facilitated an easy evaluation across models, highlighting 
 
 The Starbucks Capstone Challenge provided valuable insights into customer behavior and offer responsiveness. Key findings include:
 
-- *Model Performance Metrics: The chosen model, a GradientBoostingClassifier, yielded an accuracy of 0.836, precision of 0.812, and recall of 0.898.These metrics indicate the model's robustness in correctly predicting whether a customer would respond to an offer.
+- Model Performance Metrics: The chosen model, a GradientBoostingClassifier, yielded an accuracy of 0.836, precision of 0.812, and recall of 0.898.These metrics indicate the model's robustness in correctly predicting whether a customer would respond to an offer.
 
 - Key Findings: Demographic Influence: The model revealed significant patterns in how different demographic groups responded to offers. For instance, income levels and age groups showed varied responsiveness to BOGO and discount offers. Offer Type Impact: Certain offer types, like discounts, had higher completion rates than others, like informational offers, suggesting their greater effectiveness in driving customer action.
 
