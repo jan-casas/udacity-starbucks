@@ -50,9 +50,20 @@ The objective of this project is to construct a machine learning model capable o
 
 ## 4. File Descriptions <a name="descriptions"></a>
 
-- `portfolio.json` - Offer metadata, including id, type, difficulty, reward, duration, and channels.
-- `profile.json` - Customer demographics, including age, membership start date, gender, id, and income.
-- `transcript.json` - Transaction records, including event type, customer id, time, and value (either an offer id or transaction amount).
+**Portfolio Data (`portfolio.json`):** Contains details about each offer, including offer ID, type (BOGO, discount, informational), difficulty, reward, duration, and distribution channels. These details are crucial for categorizing and analyzing the effectiveness of different offers.
+- **Contents**: 10 offers with details on reward, channels, difficulty, duration, offer type, and ID.
+- **Key Points**: Offers are varied, with different rewards (mean 4.2), distribution channels (e.g., email, mobile), difficulty levels, and durations (average 6.5 days).
+- **Usage**: Critical for understanding offer effectiveness and tailoring marketing strategies.
+
+**Profile Data (`profile.json`):** Provides demographic data of customers, such as age, date of app account creation, gender, ID, and income. This dataset allows for the segmentation of customers and understanding their response patterns.
+- **Contents**: Demographics of 17,000 customers, including gender, age, ID, membership start date, and income.
+- **Key Points**: Gender and income have missing values; age data (mean 62.53 years) includes placeholders (e.g., age 118).
+- **Usage**: Essential for customer segmentation and personalized marketing; aids in loyalty and membership analysis.
+
+**Transcript Data (`transcript.json`):** Records transactions, offers received, offers viewed, and offers completed, along with timestamps and monetary values. This dataset is pivotal for tracking customer behavior in response to offers.
+- **Contents**: 306,534 customer interactions, detailing person ID, event type, value details, and time.
+- **Key Points**: Covers a wide range of interactions, with event times averaging 366 hours.
+- **Usage**: Offers insights into behavioral responses to offers and overall effectiveness of marketing campaigns.
 
 
 ## 5. Project Structure <a name="structure"></a>
