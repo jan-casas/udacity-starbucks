@@ -47,6 +47,10 @@ The objective of this project is to construct a machine learning model capable o
 - Data Visualization Libraries: Matplotlib, Plotly
 - Meachine Learning Library: Sciki-Learn
 
+```bash
+pip install -r requirements.txt
+```
+
 
 ## 4. File Descriptions <a name="descriptions"></a>
 
